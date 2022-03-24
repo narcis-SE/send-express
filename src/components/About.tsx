@@ -9,8 +9,8 @@ export const About = () =>{
             <div className="card">
                 <img src="/mainlogo.jpg"></img>
                 <div className="centered-text">
-                    <h1> Welcome to Send Express LLC</h1>
-                    <h2> Your freight stop for information about our company, goals, and mission!</h2>
+                    <h1> Welcome to Send Express LLC!</h1>
+                    <h2> Your freight stop for information about our company!</h2>
                 </div>
 
             </div>

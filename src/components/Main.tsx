@@ -1,6 +1,7 @@
 import { About } from "./About"
 import { Footer } from "./Footer"
 import { Header } from "./Header"
+import { Information } from "./Information"
 
 export const Main = ()=>{
 
@@ -9,6 +10,7 @@ export const Main = ()=>{
         <div className="Main">
             < Header />
             <About />
+            <Information />
             < Footer/>
         </div>
     )
