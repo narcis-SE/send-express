@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.container ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-align: center;
+}
+
+.container li{
+    margin-left: 5px;
+}
+
+@media only screen and (max-width:600px){
+    .container ul{
+        display: flex;
+        flex-direction: column;
+    }
+}
