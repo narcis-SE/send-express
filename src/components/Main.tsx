@@ -1,17 +1,22 @@
-import { About } from "./About"
-import { Footer } from "./Footer"
 import { Header } from "./Header"
-import { Information } from "./Information"
+import { Home } from "./Home";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { Information } from "./Information";
+import { Footer } from "./Footer";
 
 export const Main = ()=>{
 
 
     return(
         <div className="Main">
-            < Header />
-            <About />
-            <Information />
-            < Footer/>
+            <Router>
+                < Header />
+                <Routes>
+                    <Route path="/" element={<Home />}/>
+                    <Route path="/about" element={<Information/>}/>
+                    <Route path="/footer" element={<Footer/>}/>
+                </Routes>
+            </Router>
         </div>
     )
 }

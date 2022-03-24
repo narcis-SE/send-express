@@ -10,7 +10,7 @@ export const About = () =>{
                 <img src="/mainlogo.jpg"></img>
                 <div className="centered-text">
                     <h1> Welcome to Send Express LLC!</h1>
-                    <h2> Your freight stop for information about our company!</h2>
+                    <h2> Your freight stop for information about us.</h2>
                 </div>
 
             </div>
