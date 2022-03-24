@@ -47,6 +47,7 @@ export const Header = () => {
                                 <Nav.Link href="#home">Home</Nav.Link>
                                 <Nav.Link href="#about">About</Nav.Link>
                                 <Nav.Link href="#careers">Careers</Nav.Link>
+                                <Nav.Link href="#careers">Contact</Nav.Link>
                                 {/* <NavDropdown title="Dropdown" id="offcanvasNavbarDropdown">
                         <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
                         <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>

@@ -1,3 +1,14 @@
-.card{
-    margin-top: 10px
+.middle{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.middle h1{
+    margin-bottom: 40px;
+
+}
+
+.box{
+    margin: 0 45px 0 45px;
 }
